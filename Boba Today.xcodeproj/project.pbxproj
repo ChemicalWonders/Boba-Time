@@ -3,17 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044EAE8CAA206A71E68FA026 /* Pods_Boba_TodayUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 494C953AC9D24C17D21BB239 /* Pods_Boba_TodayUITests.framework */; };
+		46FD6840F5E2699EBECDCCE8 /* Pods_Boba_Today.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F380BE03E8281BE8E5116AA /* Pods_Boba_Today.framework */; };
+		C17ACD85A1E8B2F4DC30416A /* Pods_Boba_TodayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E606A21245E39CB464A98E9 /* Pods_Boba_TodayTests.framework */; };
+		C2635BCB22B61174001DD1B4 /* BobaStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2635BCA22B61174001DD1B4 /* BobaStore.swift */; };
+		C2635BD222B612A9001DD1B4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2635BD122B612A9001DD1B4 /* Default-568h@2x.png */; };
+		C2CEC20522B33CDB00163753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CEC20422B33CDB00163753 /* Assets.xcassets */; };
 		C2D4B74F22B32B47005DC37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4B74E22B32B47005DC37C /* AppDelegate.swift */; };
 		C2D4B75122B32B47005DC37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4B75022B32B47005DC37C /* ViewController.swift */; };
 		C2D4B75422B32B47005DC37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D4B75222B32B47005DC37C /* Main.storyboard */; };
-		C2D4B75622B32B49005DC37C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D4B75522B32B49005DC37C /* Assets.xcassets */; };
 		C2D4B75922B32B49005DC37C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2D4B75722B32B49005DC37C /* LaunchScreen.storyboard */; };
-		C2D4B76422B32B49005DC37C /* Boba_TodayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4B76322B32B49005DC37C /* Boba_TodayTests.swift */; };
-		C2D4B76F22B32B49005DC37C /* Boba_TodayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D4B76E22B32B49005DC37C /* Boba_TodayUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +37,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E606A21245E39CB464A98E9 /* Pods_Boba_TodayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_TodayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F380BE03E8281BE8E5116AA /* Pods_Boba_Today.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_Today.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494C953AC9D24C17D21BB239 /* Pods_Boba_TodayUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Boba_TodayUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		576673886C6C687FF368FD17 /* Pods-Boba TodayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba TodayTests.release.xcconfig"; path = "Target Support Files/Pods-Boba TodayTests/Pods-Boba TodayTests.release.xcconfig"; sourceTree = "<group>"; };
+		5F3EC8C76BAAF247A68DD870 /* Pods-Boba TodayUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba TodayUITests.debug.xcconfig"; path = "Target Support Files/Pods-Boba TodayUITests/Pods-Boba TodayUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		62DFBE1E46DF0F0537AC8C0B /* Pods-Boba TodayUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba TodayUITests.release.xcconfig"; path = "Target Support Files/Pods-Boba TodayUITests/Pods-Boba TodayUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89226B9BF5725AEA9B11B9FB /* Pods-Boba TodayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba TodayTests.debug.xcconfig"; path = "Target Support Files/Pods-Boba TodayTests/Pods-Boba TodayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0FBCE6441B80ADC89542BC /* Pods-Boba Today.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Today.debug.xcconfig"; path = "Target Support Files/Pods-Boba Today/Pods-Boba Today.debug.xcconfig"; sourceTree = "<group>"; };
+		C2635BCA22B61174001DD1B4 /* BobaStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BobaStore.swift; sourceTree = "<group>"; };
+		C2635BD122B612A9001DD1B4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C2CEC20422B33CDB00163753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D4B74B22B32B47005DC37C /* Boba Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Boba Today.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D4B74E22B32B47005DC37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C2D4B75022B32B47005DC37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C2D4B75322B32B47005DC37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C2D4B75522B32B49005DC37C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2D4B75822B32B49005DC37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2D4B75A22B32B49005DC37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D4B75F22B32B49005DC37C /* Boba TodayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boba TodayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2D4B76322B32B49005DC37C /* Boba_TodayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boba_TodayTests.swift; sourceTree = "<group>"; };
-		C2D4B76522B32B49005DC37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2D4B76A22B32B49005DC37C /* Boba TodayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Boba TodayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2D4B76E22B32B49005DC37C /* Boba_TodayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boba_TodayUITests.swift; sourceTree = "<group>"; };
-		C2D4B77022B32B49005DC37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D22E0B3E178B6F5AAA16DAAD /* Pods-Boba Today.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Today.release.xcconfig"; path = "Target Support Files/Pods-Boba Today/Pods-Boba Today.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46FD6840F5E2699EBECDCCE8 /* Pods_Boba_Today.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17ACD85A1E8B2F4DC30416A /* Pods_Boba_TodayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +80,64 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044EAE8CAA206A71E68FA026 /* Pods_Boba_TodayUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E1114289E40A87CAA855488 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F380BE03E8281BE8E5116AA /* Pods_Boba_Today.framework */,
+				2E606A21245E39CB464A98E9 /* Pods_Boba_TodayTests.framework */,
+				494C953AC9D24C17D21BB239 /* Pods_Boba_TodayUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2635BCC22B61219001DD1B4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C2635BCA22B61174001DD1B4 /* BobaStore.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C2635BCD22B6122F001DD1B4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4B75222B32B47005DC37C /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C2635BCF22B61245001DD1B4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4B75022B32B47005DC37C /* ViewController.swift */,
+				C2D4B74E22B32B47005DC37C /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C2635BD022B61277001DD1B4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2D4B75A22B32B49005DC37C /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		C2D4B74222B32B47005DC37C = {
 			isa = PBXGroup;
 			children = (
+				C2635BD122B612A9001DD1B4 /* Default-568h@2x.png */,
 				C2D4B74D22B32B47005DC37C /* Boba Today */,
-				C2D4B76222B32B49005DC37C /* Boba TodayTests */,
-				C2D4B76D22B32B49005DC37C /* Boba TodayUITests */,
 				C2D4B74C22B32B47005DC37C /* Products */,
+				C8D20451EF73F15CEECE78A7 /* Pods */,
+				9E1114289E40A87CAA855488 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,32 +154,27 @@
 		C2D4B74D22B32B47005DC37C /* Boba Today */ = {
 			isa = PBXGroup;
 			children = (
-				C2D4B74E22B32B47005DC37C /* AppDelegate.swift */,
-				C2D4B75022B32B47005DC37C /* ViewController.swift */,
-				C2D4B75222B32B47005DC37C /* Main.storyboard */,
-				C2D4B75522B32B49005DC37C /* Assets.xcassets */,
+				C2635BCD22B6122F001DD1B4 /* View */,
+				C2635BCC22B61219001DD1B4 /* Model */,
+				C2635BCF22B61245001DD1B4 /* Controller */,
+				C2CEC20422B33CDB00163753 /* Assets.xcassets */,
 				C2D4B75722B32B49005DC37C /* LaunchScreen.storyboard */,
-				C2D4B75A22B32B49005DC37C /* Info.plist */,
+				C2635BD022B61277001DD1B4 /* Supporting Files */,
 			);
 			path = "Boba Today";
 			sourceTree = "<group>";
 		};
-		C2D4B76222B32B49005DC37C /* Boba TodayTests */ = {
+		C8D20451EF73F15CEECE78A7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C2D4B76322B32B49005DC37C /* Boba_TodayTests.swift */,
-				C2D4B76522B32B49005DC37C /* Info.plist */,
+				BE0FBCE6441B80ADC89542BC /* Pods-Boba Today.debug.xcconfig */,
+				D22E0B3E178B6F5AAA16DAAD /* Pods-Boba Today.release.xcconfig */,
+				89226B9BF5725AEA9B11B9FB /* Pods-Boba TodayTests.debug.xcconfig */,
+				576673886C6C687FF368FD17 /* Pods-Boba TodayTests.release.xcconfig */,
+				5F3EC8C76BAAF247A68DD870 /* Pods-Boba TodayUITests.debug.xcconfig */,
+				62DFBE1E46DF0F0537AC8C0B /* Pods-Boba TodayUITests.release.xcconfig */,
 			);
-			path = "Boba TodayTests";
-			sourceTree = "<group>";
-		};
-		C2D4B76D22B32B49005DC37C /* Boba TodayUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C2D4B76E22B32B49005DC37C /* Boba_TodayUITests.swift */,
-				C2D4B77022B32B49005DC37C /* Info.plist */,
-			);
-			path = "Boba TodayUITests";
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D4B77322B32B49005DC37C /* Build configuration list for PBXNativeTarget "Boba Today" */;
 			buildPhases = (
+				417BDBB604E71F74D2C29D1D /* [CP] Check Pods Manifest.lock */,
 				C2D4B74722B32B47005DC37C /* Sources */,
 				C2D4B74822B32B47005DC37C /* Frameworks */,
 				C2D4B74922B32B47005DC37C /* Resources */,
+				FE16161513FB18DC1CAD6F64 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D4B77622B32B49005DC37C /* Build configuration list for PBXNativeTarget "Boba TodayTests" */;
 			buildPhases = (
+				73BB902B2273E7B01C4C9303 /* [CP] Check Pods Manifest.lock */,
 				C2D4B75B22B32B49005DC37C /* Sources */,
 				C2D4B75C22B32B49005DC37C /* Frameworks */,
 				C2D4B75D22B32B49005DC37C /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C2D4B77922B32B49005DC37C /* Build configuration list for PBXNativeTarget "Boba TodayUITests" */;
 			buildPhases = (
+				9C6759AE64E68170F823EAB5 /* [CP] Check Pods Manifest.lock */,
 				C2D4B76622B32B49005DC37C /* Sources */,
 				C2D4B76722B32B49005DC37C /* Frameworks */,
 				C2D4B76822B32B49005DC37C /* Resources */,
@@ -230,7 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D4B75922B32B49005DC37C /* LaunchScreen.storyboard in Resources */,
-				C2D4B75622B32B49005DC37C /* Assets.xcassets in Resources */,
+				C2635BD222B612A9001DD1B4 /* Default-568h@2x.png in Resources */,
+				C2CEC20522B33CDB00163753 /* Assets.xcassets in Resources */,
 				C2D4B75422B32B47005DC37C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,12 +308,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		417BDBB604E71F74D2C29D1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boba Today-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73BB902B2273E7B01C4C9303 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boba TodayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C6759AE64E68170F823EAB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Boba TodayUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE16161513FB18DC1CAD6F64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boba Today/Pods-Boba Today-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Boba Today/Pods-Boba Today-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Boba Today/Pods-Boba Today-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C2D4B74722B32B47005DC37C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				C2D4B75122B32B47005DC37C /* ViewController.swift in Sources */,
+				C2635BCB22B61174001DD1B4 /* BobaStore.swift in Sources */,
 				C2D4B74F22B32B47005DC37C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,7 +409,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D4B76422B32B49005DC37C /* Boba_TodayTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,7 +416,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2D4B76F22B32B49005DC37C /* Boba_TodayUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,11 +572,12 @@
 		};
 		C2D4B77422B32B49005DC37C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0FBCE6441B80ADC89542BC /* Pods-Boba Today.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CH32CYHM29;
-				INFOPLIST_FILE = "Boba Today/Info.plist";
+				INFOPLIST_FILE = "Boba Today/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -448,11 +591,12 @@
 		};
 		C2D4B77522B32B49005DC37C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D22E0B3E178B6F5AAA16DAAD /* Pods-Boba Today.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = CH32CYHM29;
-				INFOPLIST_FILE = "Boba Today/Info.plist";
+				INFOPLIST_FILE = "Boba Today/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +610,7 @@
 		};
 		C2D4B77722B32B49005DC37C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89226B9BF5725AEA9B11B9FB /* Pods-Boba TodayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +632,7 @@
 		};
 		C2D4B77822B32B49005DC37C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 576673886C6C687FF368FD17 /* Pods-Boba TodayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +654,7 @@
 		};
 		C2D4B77A22B32B49005DC37C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F3EC8C76BAAF247A68DD870 /* Pods-Boba TodayUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +675,7 @@
 		};
 		C2D4B77B22B32B49005DC37C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62DFBE1E46DF0F0537AC8C0B /* Pods-Boba TodayUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
