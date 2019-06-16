@@ -15,7 +15,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     
     // Constants
     let YELP_URL = "https://api.yelp.com/v3/businesses/search"
-    let YELP_KEY = "Bearer _yyghbMQTFQmpmdcVEJK06IW_itAhu1GT2Zt1-IArUi290WrmmhL9PZiizrz9ejf9T08H6NEYtbCh7vcN3kSiL_5cLoe-8iUumfmUbzbXQ2h7K9YP6fW-9Mk1EADXXYx"
+    
     let locationManager = CLLocationManager()
     let bobaStoreDataModel = BobaStore()
     
@@ -40,7 +40,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
             response.numberOfLines = 2;
             response.text = "Go for it! Maybe try \(bobaStoreDataModel.storeName) on \(bobaStoreDataModel.location). They have a rating of \(bobaStoreDataModel.rating) stars on Yelp!";
             responseImg.image = UIImage();
-        } else {
+        } else if (bobaAnswer && !bobaStoreDataModel.didUpdate){
+            response.numberOfLines = 5;
+            response.text = "You should go for it! But since I wasn't able to find your location, I can't give you a recommendation. Try turning on Location Services, or moving to a place with a better GPS signal!"
+            responseImg.image = UIImage(named: "bobae");
+        }
+        else {
             response.text = "Maybe not today. Try again tomorrow?";
             responseImg.image = UIImage(named: "shockedpikachu");
         }
